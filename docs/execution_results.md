@@ -78,7 +78,9 @@ which may misrepresent their potential return and reduce trust in the platform.
 
 BG6 - Available balance is not shown in bet slip
 Severity: Medium
+
 BG7 - No validation feedback for invalid odds filter range
 Severity: Medium
+
 BG8 - No selection is displayed in success message after placing a bet
 Severity: Medium
