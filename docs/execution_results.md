@@ -1,6 +1,6 @@
 Bugs:
 
-ID#1 - Available balance is not updated in the UI after successful bet placement
+BG1 - Available balance is not updated in the UI after successful bet placement
 Severity: High
 Steps to reproduce:
 1. Log in to the platform with valid credentials.
@@ -17,7 +17,7 @@ Business Impact:
 Users may lose trust in the platform if their balance is not updated correctly after placing a bet, leading to potential financial losses and damage to the platform's reputation.
 Evidence:see screenshots
 
-ID#2 - Past matches are shown in the matches section
+BG2 - Past matches are shown in the matches section
 Severity: Medium
 Steps to reproduce:
 1. Log in to the platform with valid credentials.
@@ -31,7 +31,7 @@ Business Impact:
 Users may be confused or frustrated if they see past matches in the matches section, leading to a poor user experience and potential loss of engagement with the platform.
 Evidence: see screenshots
 
-ID#3 -  Bet can be successfully placed on a past match
+BG3 -  Bet can be successfully placed on a past match
 Severity: Critical
 Steps to reproduce:
 1. Log in to the platform with valid credentials.
@@ -45,7 +45,7 @@ Business Impact:
 Allowing users to place bets on past matches can lead to financial losses for users and damage to the platform's reputation, as it undermines the integrity of the betting process.
 Evidence: see screenshots
 
-ID#4 - Odds filter does not support the full specified odds range
+BG4 - Odds filter does not support the full specified odds range
 Severity: Medium
 Steps to reproduce:
 1. Log in to the platform with valid credentials.
@@ -58,14 +58,7 @@ The odds filter only allows values from 1 to 10, so the full specified odds rang
 Business Impact:
 Users cannot filter matches using the full supported odds range defined by the product requirements, which limits the functionality of the filter.
 
-ID#5 - Available balance is not shown in bet slip
-Severity: Medium
-ID#6 - No validation feedback for invalid odds filter range
-Severity: Medium
-ID#7 - No selection is displayed in success message after placing a bet
-Severity: Low
-
-ID#8 - Potential payout in success receipt does not match the calculated payout
+BG5 - Potential payout in success receipt does not match the calculated payout
 Severity: High
 Steps to reproduce:
 1. Open the application using a valid user ID.
@@ -82,3 +75,10 @@ The Bet Slip displays €17.00, but the success receipt displays €20.00.
 Business Impact:
 Users receive inconsistent financial information after placing a bet,
 which may misrepresent their potential return and reduce trust in the platform.
+
+BG6 - Available balance is not shown in bet slip
+Severity: Medium
+BG7 - No validation feedback for invalid odds filter range
+Severity: Medium
+BG8 - No selection is displayed in success message after placing a bet
+Severity: Medium
