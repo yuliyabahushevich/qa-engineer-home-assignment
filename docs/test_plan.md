@@ -1,4 +1,4 @@
-Test plan
+Test plan: Test scenirious
 
 TS1 - Placing a single bet on the platform and validating the bet placement and the balance update.
 Priority: Critical
