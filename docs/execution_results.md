@@ -53,3 +53,26 @@ ID#6 - No validation feedback for invalid odds filter range
 Severity: Medium
 ID#7 - No selection is displayed in success message after placing a bet
 Severity: Low
+
+ID#8 - Potential payout in success receipt does not match the calculated payout
+
+Severity: High
+
+Steps to reproduce:
+1. Open the application using a valid user ID.
+2. Select an upcoming match and an outcome with odds 1.70.
+3. Enter a stake of €10.00.
+4. Verify that the Bet Slip shows a potential payout of €17.00.
+5. Place the bet.
+6. Check the potential payout displayed in the success receipt.
+
+Expected Result:
+The success receipt should display a potential payout of €17.00
+(€10.00 × 1.70), consistent with the Bet Slip value.
+
+Actual Result:
+The Bet Slip displays €17.00, but the success receipt displays €20.00.
+
+Business Impact:
+Users receive inconsistent financial information after placing a bet,
+which may misrepresent their potential return and reduce trust in the platform.
